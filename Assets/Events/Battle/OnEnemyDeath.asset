@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1501101930, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
+  m_Name: OnEnemyDeath
+  m_EditorClassIdentifier: 
+  time: 12/01/2023 10:49:16
+  version: 2.34.0
+  data:
+    name: gameEvent
+    xmlData: "<gameEvent startIndex=\"0\" >\n\t<_bool blockingEvent=\"False\" blockMoveAI=\"False\"
+      blockActorMoveAI=\"False\" blockControlMaps=\"False\" clearFoundObjects=\"True\"
+      closeAllDialogues=\"False\" blockPlayer=\"False\" blockCamera=\"False\" clearBlocks=\"False\"
+      mainCamera=\"True\" cameraTag=\"False\" destroyPrefabs=\"False\" overrideNodeName=\"False\"
+      />\n\t<_floatarrays>\n\t\t<nodePosition 38 38 />\n\t</_floatarrays>\n\t<_string>\n\t\t<cameraName><![CDATA[]]></cameraName>\n\t\t<nodeName><![CDATA[]]></nodeName>\n\t</_string>\n\t<_subarrays>\n\t\t<actor>\n\t\t\t<0
+      type=\"0\" memberIndex=\"0\" >\n\t\t\t\t<_bool isEventObject=\"True\" isFindObject=\"False\"
+      onlyBattle=\"False\" useRoot=\"False\" useSceneName=\"False\" setName=\"False\"
+      />\n\t\t\t\t<_string>\n\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<portrait>\n\t\t\t\t\t</portrait>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t\t<1
+      type=\"4\" memberIndex=\"0\" >\n\t\t\t\t<_bool isEventObject=\"False\" isFindObject=\"False\"
+      onlyBattle=\"False\" useRoot=\"False\" useSceneName=\"False\" setName=\"False\"
+      />\n\t\t\t\t<_string>\n\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<portrait>\n\t\t\t\t\t</portrait>\n\t\t\t\t</_subarrays>\n\t\t\t</1>\n\t\t</actor>\n\t\t<waypoint>\n\t\t</waypoint>\n\t\t<prefab>\n\t\t</prefab>\n\t\t<audioClip>\n\t\t</audioClip>\n\t\t<step>\n\t\t\t<0
+      needed=\"0\" nextFail=\"-1\" next=\"3\" >\n\t\t\t\t<_bool wholeGroup=\"False\"
+      onlyBattle=\"False\" storeCombatants=\"False\" active=\"True\" overrideNodeName=\"False\"
+      />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition 266 38 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[CheckStatusStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<usedObject
+      type=\"0\" aID=\"1\" wID=\"0\" pID=\"0\" pID2=\"-1\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<objectKey
+      type=\"0\" origin=\"1\" >\n\t\t\t\t\t\t<_bool useObject=\"True\" />\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t\t<selectedKey><![CDATA[]]></selectedKey>\n\t\t\t\t\t\t\t<objectID><![CDATA[]]></objectID>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</objectKey>\n\t\t\t\t</usedObject>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<req>\n\t\t\t\t\t\t<0
+      requirementType=\"0\" needed=\"0\" templateID=\"0\" >\n\t\t\t\t\t\t\t<status>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.Requirements.StatusValueRequirementType]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings
+      statusValueID=\"7\" getValue=\"0\" otherCheckType=\"0\" otherStatusValueID=\"0\"
+      otherGetValue=\"0\" otherStatusValueID2=\"0\" otherGetValue2=\"0\" setter=\"0\"
+      >\n\t\t\t\t\t\t\t\t\t<_bool compareWithOther=\"False\" />\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[StatusValueRequirementType]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t<check
+      type=\"3\" >\n\t\t\t\t\t\t\t\t\t\t<value type=\"0\" id=\"0\" rounding=\"0\"
+      >\n\t\t\t\t\t\t\t\t\t\t\t<_float initialValue=\"0\" offset=\"0\" value=\"0\"
+      value2=\"0\" />\n\t\t\t\t\t\t\t\t\t\t\t<_bool isInt=\"False\" isUTC=\"False\"
+      />\n\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t</value>\n\t\t\t\t\t\t\t\t\t</check>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</status>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</req>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t\t<1
+      statusValueID=\"1\" setIn=\"0\" op=\"0\" next=\"-1\" >\n\t\t\t\t<_bool wholeGroup=\"False\"
+      onlyBattle=\"False\" init=\"False\" ignoreBarrier=\"False\" notify=\"False\"
+      notifyCritical=\"False\" console=\"False\" useSource=\"False\" active=\"True\"
+      overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
+      722 38 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[ChangeStatusValueStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<usedObject
+      type=\"0\" aID=\"0\" wID=\"0\" pID=\"0\" pID2=\"-1\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<objectKey
+      type=\"0\" origin=\"1\" >\n\t\t\t\t\t\t<_bool useObject=\"True\" />\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t\t<selectedKey><![CDATA[]]></selectedKey>\n\t\t\t\t\t\t\t<objectID><![CDATA[]]></objectID>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</objectKey>\n\t\t\t\t</usedObject>\n\t\t\t\t<value
+      type=\"0\" multiVariableUseType=\"0\" formulaID=\"0\" value=\"10\" value2=\"0\"
+      rounding=\"0\" >\n\t\t\t\t\t<_float initialValue=\"0\" offset=\"0\" />\n\t\t\t\t\t<_bool
+      isInt=\"False\" isUTC=\"False\" />\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<variableOrigin
+      origin=\"1\" >\n\t\t\t\t\t\t<_bool useObject=\"True\" />\n\t\t\t\t\t</variableOrigin>\n\t\t\t\t</value>\n\t\t\t</1>\n\t\t\t<2
+      statusValueID=\"1\" getType=\"0\" floatOperator=\"7\" next=\"5\" >\n\t\t\t\t<_bool
+      active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
+      266 152 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[StatusValueToVariableStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<userObject
+      type=\"0\" aID=\"0\" wID=\"0\" pID=\"0\" pID2=\"-1\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<objectKey
+      type=\"0\" origin=\"1\" >\n\t\t\t\t\t\t<_bool useObject=\"True\" />\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t\t<selectedKey><![CDATA[]]></selectedKey>\n\t\t\t\t\t\t\t<objectID><![CDATA[]]></objectID>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</objectKey>\n\t\t\t\t</userObject>\n\t\t\t\t<variableOrigin
+      origin=\"0\" >\n\t\t\t\t\t<_bool useObject=\"True\" />\n\t\t\t\t</variableOrigin>\n\t\t\t\t<key
+      type=\"0\" origin=\"1\" >\n\t\t\t\t\t<_bool useObject=\"True\" />\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<value><![CDATA[motivation]]></value>\n\t\t\t\t\t\t<selectedKey><![CDATA[]]></selectedKey>\n\t\t\t\t\t\t<objectID><![CDATA[]]></objectID>\n\t\t\t\t\t</_string>\n\t\t\t\t</key>\n\t\t\t</2>\n\t\t\t<3
+      needed=\"0\" nextFail=\"2\" next=\"1\" >\n\t\t\t\t<_bool wholeGroup=\"False\"
+      onlyBattle=\"False\" storeCombatants=\"False\" active=\"True\" overrideNodeName=\"False\"
+      />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition 494 38 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[CheckStatusStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<usedObject
+      type=\"0\" aID=\"0\" wID=\"0\" pID=\"0\" pID2=\"-1\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<objectKey
+      type=\"0\" origin=\"1\" >\n\t\t\t\t\t\t<_bool useObject=\"True\" />\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t\t<selectedKey><![CDATA[]]></selectedKey>\n\t\t\t\t\t\t\t<objectID><![CDATA[]]></objectID>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</objectKey>\n\t\t\t\t</usedObject>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<req>\n\t\t\t\t\t\t<0
+      requirementType=\"0\" needed=\"0\" templateID=\"0\" >\n\t\t\t\t\t\t\t<status>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.Requirements.StatusValueRequirementType]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings
+      statusValueID=\"1\" getValue=\"0\" otherCheckType=\"0\" otherStatusValueID=\"0\"
+      otherGetValue=\"0\" otherStatusValueID2=\"0\" otherGetValue2=\"0\" setter=\"0\"
+      >\n\t\t\t\t\t\t\t\t\t<_bool compareWithOther=\"False\" />\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[StatusValueRequirementType]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t<check
+      type=\"5\" >\n\t\t\t\t\t\t\t\t\t\t<value type=\"0\" id=\"0\" rounding=\"0\"
+      >\n\t\t\t\t\t\t\t\t\t\t\t<_float initialValue=\"0\" offset=\"0\" value=\"50\"
+      value2=\"0\" />\n\t\t\t\t\t\t\t\t\t\t\t<_bool isInt=\"False\" isUTC=\"False\"
+      />\n\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t</value>\n\t\t\t\t\t\t\t\t\t</check>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</status>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</req>\n\t\t\t\t</_subarrays>\n\t\t\t</3>\n\t\t\t<4
+      statusValueID=\"1\" setIn=\"0\" op=\"0\" next=\"-1\" >\n\t\t\t\t<_bool wholeGroup=\"False\"
+      onlyBattle=\"False\" init=\"False\" ignoreBarrier=\"False\" notify=\"False\"
+      notifyCritical=\"False\" console=\"False\" useSource=\"False\" active=\"True\"
+      overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
+      722 152 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[ChangeStatusValueStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<usedObject
+      type=\"0\" aID=\"0\" wID=\"0\" pID=\"0\" pID2=\"-1\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<objectKey
+      type=\"0\" origin=\"1\" >\n\t\t\t\t\t\t<_bool useObject=\"True\" />\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t\t<selectedKey><![CDATA[]]></selectedKey>\n\t\t\t\t\t\t\t<objectID><![CDATA[]]></objectID>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</objectKey>\n\t\t\t\t</usedObject>\n\t\t\t\t<value
+      type=\"1\" multiVariableUseType=\"0\" formulaID=\"0\" value=\"10\" value2=\"0\"
+      rounding=\"0\" >\n\t\t\t\t\t<_float initialValue=\"0\" offset=\"0\" />\n\t\t\t\t\t<_bool
+      isInt=\"False\" isUTC=\"False\" />\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<name><![CDATA[motivation]]></name>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<variableOrigin
+      origin=\"0\" >\n\t\t\t\t\t\t<_bool useObject=\"True\" />\n\t\t\t\t\t</variableOrigin>\n\t\t\t\t</value>\n\t\t\t</4>\n\t\t\t<5
+      next=\"4\" >\n\t\t\t\t<_bool active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
+      494 152 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[ChangeGameVariableStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<variableOrigin
+      origin=\"0\" >\n\t\t\t\t\t<_bool useObject=\"True\" />\n\t\t\t\t</variableOrigin>\n\t\t\t\t<change>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t\t<0
+      type=\"2\" floatOperator=\"1\" vector3Operator=\"2\" >\n\t\t\t\t\t\t\t\t<_bool
+      remove=\"False\" boolValue=\"False\" vector3Normalize=\"False\" />\n\t\t\t\t\t\t\t\t<key
+      type=\"0\" >\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<value><![CDATA[motivation]]></value>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</key>\n\t\t\t\t\t\t\t\t<floatValue
+      type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t\t<_float initialValue=\"0\"
+      offset=\"0\" value=\"50\" value2=\"0\" />\n\t\t\t\t\t\t\t\t\t<_bool isInt=\"False\"
+      isUTC=\"False\" />\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</floatValue>\n\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t<1
+      type=\"2\" floatOperator=\"3\" vector3Operator=\"2\" >\n\t\t\t\t\t\t\t\t<_bool
+      remove=\"False\" boolValue=\"False\" vector3Normalize=\"False\" />\n\t\t\t\t\t\t\t\t<key
+      type=\"0\" >\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<value><![CDATA[motivation]]></value>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</key>\n\t\t\t\t\t\t\t\t<floatValue
+      type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t\t<_float initialValue=\"0\"
+      offset=\"0\" value=\"2\" value2=\"0\" />\n\t\t\t\t\t\t\t\t\t<_bool isInt=\"False\"
+      isUTC=\"False\" />\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</floatValue>\n\t\t\t\t\t\t\t</1>\n\t\t\t\t\t\t\t<2
+      type=\"2\" floatOperator=\"1\" vector3Operator=\"2\" >\n\t\t\t\t\t\t\t\t<_bool
+      remove=\"False\" boolValue=\"False\" vector3Normalize=\"False\" />\n\t\t\t\t\t\t\t\t<key
+      type=\"0\" >\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<value><![CDATA[motivation]]></value>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</key>\n\t\t\t\t\t\t\t\t<floatValue
+      type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t\t<_float initialValue=\"0\"
+      offset=\"0\" value=\"10\" value2=\"0\" />\n\t\t\t\t\t\t\t\t\t<_bool isInt=\"False\"
+      isUTC=\"False\" />\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</floatValue>\n\t\t\t\t\t\t\t</2>\n\t\t\t\t\t\t\t<3
+      type=\"2\" floatOperator=\"2\" vector3Operator=\"2\" >\n\t\t\t\t\t\t\t\t<_bool
+      remove=\"False\" boolValue=\"False\" vector3Normalize=\"False\" />\n\t\t\t\t\t\t\t\t<key
+      type=\"0\" >\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<value><![CDATA[motivation]]></value>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</key>\n\t\t\t\t\t\t\t\t<floatValue
+      type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t\t<_float initialValue=\"0\"
+      offset=\"0\" value=\"-1\" value2=\"0\" />\n\t\t\t\t\t\t\t\t\t<_bool isInt=\"False\"
+      isUTC=\"False\" />\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</floatValue>\n\t\t\t\t\t\t\t</3>\n\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</change>\n\t\t\t</5>\n\t\t</step>\n\t</_subarrays>\n</gameEvent>\n"
+    lookUp:
+      textures: []
+      audioClips: []
+      gameObjects: []
+      guiSkins: []
+      materials: []
+      fonts: []
+      eventAssets: []
+      generalAssets: []
+    encrypted: 0

@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1501101930, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
+  m_Name: JoinMembersTest
+  m_EditorClassIdentifier: 
+  time: 28/02/2022 13:08:57
+  version: 2.34.0
+  data:
+    name: gameEvent
+    xmlData: "<gameEvent startIndex=\"4\" >\n\t<_bool blockingEvent=\"False\" blockMoveAI=\"False\"
+      blockActorMoveAI=\"False\" blockControlMaps=\"False\" clearFoundObjects=\"True\"
+      closeAllDialogues=\"False\" blockPlayer=\"False\" blockCamera=\"False\" clearBlocks=\"False\"
+      mainCamera=\"True\" cameraTag=\"False\" destroyPrefabs=\"False\" overrideNodeName=\"False\"
+      />\n\t<_floatarrays>\n\t\t<nodePosition 38 38 />\n\t</_floatarrays>\n\t<_string>\n\t\t<cameraName><![CDATA[]]></cameraName>\n\t\t<nodeName><![CDATA[]]></nodeName>\n\t</_string>\n\t<_subarrays>\n\t\t<actor>\n\t\t\t<0
+      type=\"2\" memberIndex=\"1\" >\n\t\t\t\t<_bool isEventObject=\"False\" isFindObject=\"False\"
+      onlyBattle=\"False\" useRoot=\"False\" useSceneName=\"False\" setName=\"False\"
+      />\n\t\t\t\t<_string>\n\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<portrait>\n\t\t\t\t\t</portrait>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t\t<1
+      type=\"2\" memberIndex=\"2\" >\n\t\t\t\t<_bool isEventObject=\"False\" isFindObject=\"False\"
+      onlyBattle=\"False\" useRoot=\"False\" useSceneName=\"False\" setName=\"False\"
+      />\n\t\t\t\t<_string>\n\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<portrait>\n\t\t\t\t\t</portrait>\n\t\t\t\t</_subarrays>\n\t\t\t</1>\n\t\t\t<2
+      type=\"2\" memberIndex=\"3\" >\n\t\t\t\t<_bool isEventObject=\"False\" isFindObject=\"False\"
+      onlyBattle=\"False\" useRoot=\"False\" useSceneName=\"False\" setName=\"False\"
+      />\n\t\t\t\t<_string>\n\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<portrait>\n\t\t\t\t\t</portrait>\n\t\t\t\t</_subarrays>\n\t\t\t</2>\n\t\t\t<3
+      type=\"2\" memberIndex=\"4\" >\n\t\t\t\t<_bool isEventObject=\"False\" isFindObject=\"False\"
+      onlyBattle=\"False\" useRoot=\"False\" useSceneName=\"False\" setName=\"False\"
+      />\n\t\t\t\t<_string>\n\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<portrait>\n\t\t\t\t\t</portrait>\n\t\t\t\t</_subarrays>\n\t\t\t</3>\n\t\t</actor>\n\t\t<waypoint>\n\t\t</waypoint>\n\t\t<prefab>\n\t\t\t<0>\n\t\t\t\t<prefab>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<settings>\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t<_gameobject
+      asset=\"0\" />\n\t\t\t\t\t</settings>\n\t\t\t\t</prefab>\n\t\t\t</0>\n\t\t\t<1>\n\t\t\t\t<prefab>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<settings>\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t<_gameobject
+      asset=\"1\" />\n\t\t\t\t\t</settings>\n\t\t\t\t</prefab>\n\t\t\t</1>\n\t\t\t<2>\n\t\t\t\t<prefab>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<settings>\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t<_gameobject
+      asset=\"2\" />\n\t\t\t\t\t</settings>\n\t\t\t\t</prefab>\n\t\t\t</2>\n\t\t\t<3>\n\t\t\t\t<prefab>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<settings>\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t<_gameobject
+      asset=\"3\" />\n\t\t\t\t\t</settings>\n\t\t\t\t</prefab>\n\t\t\t</3>\n\t\t</prefab>\n\t\t<audioClip>\n\t\t</audioClip>\n\t\t<step>\n\t\t\t<0
+      groupID=\"0\" combatant=\"1\" next=\"1\" >\n\t\t\t\t<_bool actor=\"False\"
+      showNotification=\"True\" showConsole=\"True\" useCombatantGroup=\"False\"
+      otherGroup=\"False\" useInactive=\"False\" learnAbilities=\"True\" useStartInventory=\"True\"
+      useStartEquipment=\"True\" useInitEvent=\"True\" active=\"True\" overrideNodeName=\"False\"
+      />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition 456 38 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[JoinActiveGroupStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<groupSelection
+      origin=\"0\" >\n\t\t\t\t</groupSelection>\n\t\t\t\t<usedObject type=\"0\" aID=\"0\"
+      wID=\"0\" pID=\"0\" pID2=\"-1\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<objectKey
+      type=\"0\" origin=\"1\" >\n\t\t\t\t\t\t<_bool useObject=\"True\" />\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t\t<selectedKey><![CDATA[]]></selectedKey>\n\t\t\t\t\t\t\t<objectID><![CDATA[]]></objectID>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</objectKey>\n\t\t\t\t</usedObject>\n\t\t\t\t<level
+      type=\"0\" minOffset=\"-5\" maxOffset=\"5\" minRandom=\"1\" maxRandom=\"99\"
+      formulaID=\"0\" >\n\t\t\t\t\t<_float formulaInitialValue=\"0\" />\n\t\t\t\t\t<_bool
+      onlyBattle=\"False\" />\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<key><![CDATA[]]></key>\n\t\t\t\t\t</_string>\n\t\t\t\t</level>\n\t\t\t\t<classLevel
+      type=\"0\" minOffset=\"-5\" maxOffset=\"5\" minRandom=\"1\" maxRandom=\"99\"
+      formulaID=\"0\" >\n\t\t\t\t\t<_float formulaInitialValue=\"0\" />\n\t\t\t\t\t<_bool
+      onlyBattle=\"False\" />\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<key><![CDATA[]]></key>\n\t\t\t\t\t</_string>\n\t\t\t\t</classLevel>\n\t\t\t</0>\n\t\t\t<1
+      groupID=\"0\" combatant=\"2\" next=\"2\" >\n\t\t\t\t<_bool actor=\"False\"
+      showNotification=\"True\" showConsole=\"True\" useCombatantGroup=\"False\"
+      otherGroup=\"False\" useInactive=\"False\" learnAbilities=\"True\" useStartInventory=\"True\"
+      useStartEquipment=\"True\" useInitEvent=\"True\" active=\"True\" overrideNodeName=\"False\"
+      />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition 665 38 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[JoinActiveGroupStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<groupSelection
+      origin=\"0\" >\n\t\t\t\t</groupSelection>\n\t\t\t\t<usedObject type=\"0\" aID=\"0\"
+      wID=\"0\" pID=\"0\" pID2=\"-1\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<objectKey
+      type=\"0\" origin=\"1\" >\n\t\t\t\t\t\t<_bool useObject=\"True\" />\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t\t<selectedKey><![CDATA[]]></selectedKey>\n\t\t\t\t\t\t\t<objectID><![CDATA[]]></objectID>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</objectKey>\n\t\t\t\t</usedObject>\n\t\t\t\t<level
+      type=\"0\" minOffset=\"-5\" maxOffset=\"5\" minRandom=\"1\" maxRandom=\"99\"
+      formulaID=\"0\" >\n\t\t\t\t\t<_float formulaInitialValue=\"0\" />\n\t\t\t\t\t<_bool
+      onlyBattle=\"False\" />\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<key><![CDATA[]]></key>\n\t\t\t\t\t</_string>\n\t\t\t\t</level>\n\t\t\t\t<classLevel
+      type=\"0\" minOffset=\"-5\" maxOffset=\"5\" minRandom=\"1\" maxRandom=\"99\"
+      formulaID=\"0\" >\n\t\t\t\t\t<_float formulaInitialValue=\"0\" />\n\t\t\t\t\t<_bool
+      onlyBattle=\"False\" />\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<key><![CDATA[]]></key>\n\t\t\t\t\t</_string>\n\t\t\t\t</classLevel>\n\t\t\t</1>\n\t\t\t<2
+      groupID=\"0\" combatant=\"3\" next=\"3\" >\n\t\t\t\t<_bool actor=\"False\"
+      showNotification=\"True\" showConsole=\"True\" useCombatantGroup=\"False\"
+      otherGroup=\"False\" useInactive=\"False\" learnAbilities=\"True\" useStartInventory=\"True\"
+      useStartEquipment=\"True\" useInitEvent=\"True\" active=\"True\" overrideNodeName=\"False\"
+      />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition 874 38 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[JoinActiveGroupStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<groupSelection
+      origin=\"0\" >\n\t\t\t\t</groupSelection>\n\t\t\t\t<usedObject type=\"0\" aID=\"0\"
+      wID=\"0\" pID=\"0\" pID2=\"-1\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<objectKey
+      type=\"0\" origin=\"1\" >\n\t\t\t\t\t\t<_bool useObject=\"True\" />\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t\t<selectedKey><![CDATA[]]></selectedKey>\n\t\t\t\t\t\t\t<objectID><![CDATA[]]></objectID>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</objectKey>\n\t\t\t\t</usedObject>\n\t\t\t\t<level
+      type=\"0\" minOffset=\"-5\" maxOffset=\"5\" minRandom=\"1\" maxRandom=\"99\"
+      formulaID=\"0\" >\n\t\t\t\t\t<_float formulaInitialValue=\"0\" />\n\t\t\t\t\t<_bool
+      onlyBattle=\"False\" />\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<key><![CDATA[]]></key>\n\t\t\t\t\t</_string>\n\t\t\t\t</level>\n\t\t\t\t<classLevel
+      type=\"0\" minOffset=\"-5\" maxOffset=\"5\" minRandom=\"1\" maxRandom=\"99\"
+      formulaID=\"0\" >\n\t\t\t\t\t<_float formulaInitialValue=\"0\" />\n\t\t\t\t\t<_bool
+      onlyBattle=\"False\" />\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<key><![CDATA[]]></key>\n\t\t\t\t\t</_string>\n\t\t\t\t</classLevel>\n\t\t\t</2>\n\t\t\t<3
+      groupID=\"0\" combatant=\"4\" next=\"-1\" >\n\t\t\t\t<_bool actor=\"False\"
+      showNotification=\"True\" showConsole=\"True\" useCombatantGroup=\"False\"
+      otherGroup=\"False\" useInactive=\"False\" learnAbilities=\"True\" useStartInventory=\"True\"
+      useStartEquipment=\"True\" useInitEvent=\"True\" active=\"True\" overrideNodeName=\"False\"
+      />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition 38 114 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[JoinActiveGroupStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<groupSelection
+      origin=\"0\" >\n\t\t\t\t</groupSelection>\n\t\t\t\t<usedObject type=\"0\" aID=\"0\"
+      wID=\"0\" pID=\"0\" pID2=\"-1\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<objectKey
+      type=\"0\" origin=\"1\" >\n\t\t\t\t\t\t<_bool useObject=\"True\" />\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t\t<selectedKey><![CDATA[]]></selectedKey>\n\t\t\t\t\t\t\t<objectID><![CDATA[]]></objectID>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</objectKey>\n\t\t\t\t</usedObject>\n\t\t\t\t<level
+      type=\"0\" minOffset=\"-5\" maxOffset=\"5\" minRandom=\"1\" maxRandom=\"99\"
+      formulaID=\"0\" >\n\t\t\t\t\t<_float formulaInitialValue=\"0\" />\n\t\t\t\t\t<_bool
+      onlyBattle=\"False\" />\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<key><![CDATA[]]></key>\n\t\t\t\t\t</_string>\n\t\t\t\t</level>\n\t\t\t\t<classLevel
+      type=\"0\" minOffset=\"-5\" maxOffset=\"5\" minRandom=\"1\" maxRandom=\"99\"
+      formulaID=\"0\" >\n\t\t\t\t\t<_float formulaInitialValue=\"0\" />\n\t\t\t\t\t<_bool
+      onlyBattle=\"False\" />\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<key><![CDATA[]]></key>\n\t\t\t\t\t</_string>\n\t\t\t\t</classLevel>\n\t\t\t</3>\n\t\t\t<4
+      groupID=\"0\" combatant=\"0\" next=\"0\" >\n\t\t\t\t<_bool actor=\"False\"
+      showNotification=\"True\" showConsole=\"True\" useCombatantGroup=\"False\"
+      otherGroup=\"False\" useInactive=\"False\" learnAbilities=\"True\" useStartInventory=\"True\"
+      useStartEquipment=\"True\" useInitEvent=\"True\" active=\"True\" overrideNodeName=\"False\"
+      />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition 247 38 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[JoinActiveGroupStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<groupSelection
+      origin=\"0\" >\n\t\t\t\t</groupSelection>\n\t\t\t\t<usedObject type=\"0\" aID=\"0\"
+      wID=\"0\" pID=\"0\" pID2=\"-1\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<objectKey
+      type=\"0\" origin=\"1\" >\n\t\t\t\t\t\t<_bool useObject=\"True\" />\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t\t<selectedKey><![CDATA[]]></selectedKey>\n\t\t\t\t\t\t\t<objectID><![CDATA[]]></objectID>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</objectKey>\n\t\t\t\t</usedObject>\n\t\t\t\t<level
+      type=\"0\" minOffset=\"-5\" maxOffset=\"5\" minRandom=\"1\" maxRandom=\"99\"
+      formulaID=\"0\" >\n\t\t\t\t\t<_float formulaInitialValue=\"0\" />\n\t\t\t\t\t<_bool
+      onlyBattle=\"False\" />\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<key><![CDATA[]]></key>\n\t\t\t\t\t</_string>\n\t\t\t\t</level>\n\t\t\t\t<classLevel
+      type=\"0\" minOffset=\"-5\" maxOffset=\"5\" minRandom=\"1\" maxRandom=\"99\"
+      formulaID=\"0\" >\n\t\t\t\t\t<_float formulaInitialValue=\"0\" />\n\t\t\t\t\t<_bool
+      onlyBattle=\"False\" />\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<key><![CDATA[]]></key>\n\t\t\t\t\t</_string>\n\t\t\t\t</classLevel>\n\t\t\t</4>\n\t\t</step>\n\t</_subarrays>\n</gameEvent>\n"
+    lookUp:
+      textures: []
+      audioClips: []
+      gameObjects:
+      - {fileID: 9205591581102025194, guid: 11d0e44212f2ebd46a241835a251cbf8, type: 3}
+      - {fileID: 7610727041726130429, guid: 83f9227caf96e424a87d133060e50666, type: 3}
+      - {fileID: 7444894539698570438, guid: 17fc2b0c0533d9342809b4a05de969ad, type: 3}
+      - {fileID: 8667263128824610426, guid: b55d2d4d6aa5c4a499ecd281d6558083, type: 3}
+      guiSkins: []
+      materials: []
+      fonts: []
+      eventAssets: []
+      generalAssets: []
+    encrypted: 0

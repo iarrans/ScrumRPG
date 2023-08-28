@@ -1,0 +1,239 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3557649064394621373
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 300064537370540503, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 300064537370540503, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1920600888216310817, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1920600888216310817, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000013784198
+      objectReference: {fileID: 0}
+    - target: {fileID: 2263707421611992585, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2263707421611992585, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3105982872845041339, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3105982872845041339, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3105982872845041339, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3105982872845041339, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3105982872845041339, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3105982872845041339, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3105982872845041339, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3105982872845041339, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3105982872845041339, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3105982872845041339, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3105982872845041339, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3105982872845041339, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3105982872845041339, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3105982872845041339, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3105982872845041339, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3105982872845041339, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3105982872845041339, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3105982872845041339, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3105982872845041339, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3105982872845041339, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3105982872845041339, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3148005615704960965, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_Text
+      value: 'The Niko-Niko calendar is a useful tool not necessarily linked to Scrum,
+        but widely used in it. Everyday, each member will show how they feel through
+        an emoji. How the member feels is not necessarily linked to the project or
+        the team, personal things can influence how they feel.
+
+
+        The aim
+        of the Niko-Niko calendar is to measure some things that are normally seen
+        as unmeasurable, like motivation or happiness. By knowing how each member
+        feels, the team is expected to flexibilize their work better depending on
+        the motivation of each member.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4314694275105604392, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4314694275105604392, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5263561662400843510, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9234d935249866c49abb415ed3ccb4b0,
+        type: 3}
+    - target: {fileID: 6004697570699117956, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_Name
+      value: SFNiko-niko
+      objectReference: {fileID: 0}
+    - target: {fileID: 7294814752894967418, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_Text
+      value: Niko-Niko Calendar
+      objectReference: {fileID: 0}
+    - target: {fileID: 8008146617494083473, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8008146617494083473, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8008146617494083473, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8008146617494083473, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 410
+      objectReference: {fileID: 0}
+    - target: {fileID: 8506560877706703627, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8506560877706703627, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8506560877706703627, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8506560877706703627, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9010978696696496914, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9010978696696496914, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 196ad2d6d6e7cd14581cba586e596098, type: 3}

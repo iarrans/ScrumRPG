@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1501101930, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
+  m_Name: InitialSelectSuperrol
+  m_EditorClassIdentifier: 
+  time: 03/07/2022 12:54:44
+  version: 2.34.0
+  data:
+    name: gameEvent
+    xmlData: "<gameEvent startIndex=\"0\" >\n\t<_bool blockingEvent=\"True\" blockMoveAI=\"False\"
+      blockActorMoveAI=\"False\" blockControlMaps=\"False\" clearFoundObjects=\"True\"
+      closeAllDialogues=\"False\" blockPlayer=\"True\" blockCamera=\"True\" clearBlocks=\"False\"
+      mainCamera=\"True\" cameraTag=\"False\" destroyPrefabs=\"False\" overrideNodeName=\"False\"
+      />\n\t<_floatarrays>\n\t\t<nodePosition 0 38 />\n\t</_floatarrays>\n\t<_string>\n\t\t<cameraName><![CDATA[]]></cameraName>\n\t\t<nodeName><![CDATA[]]></nodeName>\n\t</_string>\n\t<_subarrays>\n\t\t<actor>\n\t\t\t<0
+      type=\"1\" memberIndex=\"0\" >\n\t\t\t\t<_bool isEventObject=\"False\" isFindObject=\"False\"
+      onlyBattle=\"False\" useRoot=\"False\" useSceneName=\"False\" setName=\"False\"
+      />\n\t\t\t\t<_string>\n\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<portrait>\n\t\t\t\t\t</portrait>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t</actor>\n\t\t<waypoint>\n\t\t</waypoint>\n\t\t<prefab>\n\t\t</prefab>\n\t\t<audioClip>\n\t\t</audioClip>\n\t\t<step>\n\t\t\t<0
+      changeType=\"3\" combatantScope=\"2\" isEnemy=\"2\" next=\"1\" >\n\t\t\t\t<_bool
+      allCombatants=\"True\" useRandom=\"False\" useRequirements=\"False\" active=\"True\"
+      overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
+      209 38 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[SelectCombatantStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<selectedData
+      origin=\"1\" >\n\t\t\t\t\t<key type=\"0\" origin=\"0\" >\n\t\t\t\t\t\t<_bool
+      useObject=\"True\" />\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[scrumTeam]]></value>\n\t\t\t\t\t\t\t<selectedKey><![CDATA[]]></selectedKey>\n\t\t\t\t\t\t\t<objectID><![CDATA[]]></objectID>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</key>\n\t\t\t\t</selectedData>\n\t\t\t\t<selectCombatant
+      origin=\"0\" targetIndex=\"-1\" >\n\t\t\t\t</selectCombatant>\n\t\t\t\t<usedObject
+      type=\"0\" aID=\"0\" wID=\"0\" pID=\"0\" pID2=\"-1\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<objectKey
+      type=\"0\" origin=\"1\" >\n\t\t\t\t\t\t<_bool useObject=\"True\" />\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t\t<selectedKey><![CDATA[]]></selectedKey>\n\t\t\t\t\t\t\t<objectID><![CDATA[]]></objectID>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</objectKey>\n\t\t\t\t</usedObject>\n\t\t\t</0>\n\t\t\t<1
+      changeType=\"3\" selectionType=\"0\" nextFail=\"-1\" next=\"3\" >\n\t\t\t\t<_bool
+      remove=\"True\" active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
+      456 19 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[SelectSelectedDataStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<storeSelectedData
+      origin=\"0\" >\n\t\t\t\t\t<key type=\"0\" origin=\"0\" >\n\t\t\t\t\t\t<_bool
+      useObject=\"True\" />\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[combatantSR]]></value>\n\t\t\t\t\t\t\t<selectedKey><![CDATA[]]></selectedKey>\n\t\t\t\t\t\t\t<objectID><![CDATA[]]></objectID>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</key>\n\t\t\t\t</storeSelectedData>\n\t\t\t\t<sourceSelectedData
+      origin=\"1\" >\n\t\t\t\t\t<key type=\"0\" origin=\"0\" >\n\t\t\t\t\t\t<_bool
+      useObject=\"True\" />\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[scrumTeam]]></value>\n\t\t\t\t\t\t\t<selectedKey><![CDATA[]]></selectedKey>\n\t\t\t\t\t\t\t<objectID><![CDATA[]]></objectID>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</key>\n\t\t\t\t</sourceSelectedData>\n\t\t\t</1>\n\t\t\t<2
+      classOrigin=\"0\" next=\"1\" >\n\t\t\t\t<_float timeBetween=\"0\" />\n\t\t\t\t<_bool
+      waitBetween=\"True\" active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
+      931 19 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Superrol]]></name>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[CallFunctionStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<onObject
+      type=\"5\" aID=\"0\" wID=\"0\" pID=\"0\" pID2=\"-1\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<objectKey
+      type=\"0\" origin=\"1\" >\n\t\t\t\t\t\t<_bool useObject=\"True\" />\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t\t<selectedKey><![CDATA[]]></selectedKey>\n\t\t\t\t\t\t\t<objectID><![CDATA[]]></objectID>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</objectKey>\n\t\t\t\t\t<selectedData
+      origin=\"0\" >\n\t\t\t\t\t\t<key type=\"0\" origin=\"1\" >\n\t\t\t\t\t\t\t<_bool
+      useObject=\"True\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<value><![CDATA[combatantSR]]></value>\n\t\t\t\t\t\t\t\t<selectedKey><![CDATA[]]></selectedKey>\n\t\t\t\t\t\t\t\t<objectID><![CDATA[]]></objectID>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</key>\n\t\t\t\t\t</selectedData>\n\t\t\t\t</onObject>\n\t\t\t\t<method>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<functionName><![CDATA[InitialSuperrol]]></functionName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<parameter>\n\t\t\t\t\t\t</parameter>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</method>\n\t\t\t</2>\n\t\t\t<3
+      nextFail=\"-1\" next=\"2\" >\n\t\t\t\t<_bool active=\"True\" overrideNodeName=\"False\"
+      />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition 741 114 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<text><![CDATA[%n]]></text>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[StoreSelectedDataContentStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<selectedData
+      origin=\"0\" >\n\t\t\t\t\t<key type=\"0\" origin=\"0\" >\n\t\t\t\t\t\t<_bool
+      useObject=\"True\" />\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[combatantSR]]></value>\n\t\t\t\t\t\t\t<selectedKey><![CDATA[]]></selectedKey>\n\t\t\t\t\t\t\t<objectID><![CDATA[]]></objectID>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</key>\n\t\t\t\t</selectedData>\n\t\t\t\t<variableOrigin
+      origin=\"0\" >\n\t\t\t\t\t<_bool useObject=\"True\" />\n\t\t\t\t</variableOrigin>\n\t\t\t\t<key
+      type=\"0\" origin=\"1\" >\n\t\t\t\t\t<_bool useObject=\"True\" />\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<value><![CDATA[ActorName]]></value>\n\t\t\t\t\t\t<selectedKey><![CDATA[]]></selectedKey>\n\t\t\t\t\t\t<objectID><![CDATA[]]></objectID>\n\t\t\t\t\t</_string>\n\t\t\t\t</key>\n\t\t\t</3>\n\t\t</step>\n\t</_subarrays>\n</gameEvent>\n"
+    lookUp:
+      textures: []
+      audioClips: []
+      gameObjects: []
+      guiSkins: []
+      materials: []
+      fonts: []
+      eventAssets: []
+      generalAssets: []
+    encrypted: 0

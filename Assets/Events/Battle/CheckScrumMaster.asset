@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1501101930, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
+  m_Name: CheckScrumMaster
+  m_EditorClassIdentifier: 
+  time: 15/07/2022 10:21:03
+  version: 2.34.0
+  data:
+    name: gameEvent
+    xmlData: "<gameEvent startIndex=\"0\" >\n\t<_bool blockingEvent=\"False\" blockMoveAI=\"False\"
+      blockActorMoveAI=\"False\" blockControlMaps=\"False\" clearFoundObjects=\"True\"
+      closeAllDialogues=\"False\" blockPlayer=\"False\" blockCamera=\"False\" clearBlocks=\"False\"
+      mainCamera=\"True\" cameraTag=\"False\" destroyPrefabs=\"False\" overrideNodeName=\"False\"
+      />\n\t<_floatarrays>\n\t\t<nodePosition 38 38 />\n\t</_floatarrays>\n\t<_string>\n\t\t<cameraName><![CDATA[]]></cameraName>\n\t\t<nodeName><![CDATA[]]></nodeName>\n\t</_string>\n\t<_subarrays>\n\t\t<actor>\n\t\t\t<0
+      type=\"4\" memberIndex=\"0\" >\n\t\t\t\t<_bool isEventObject=\"False\" isFindObject=\"False\"
+      onlyBattle=\"False\" useRoot=\"False\" useSceneName=\"False\" setName=\"False\"
+      />\n\t\t\t\t<_string>\n\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<portrait>\n\t\t\t\t\t</portrait>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t</actor>\n\t\t<waypoint>\n\t\t</waypoint>\n\t\t<prefab>\n\t\t</prefab>\n\t\t<audioClip>\n\t\t</audioClip>\n\t\t<step>\n\t\t\t<0
+      needed=\"0\" nextFail=\"2\" next=\"1\" >\n\t\t\t\t<_bool wholeGroup=\"False\"
+      onlyBattle=\"False\" storeCombatants=\"False\" active=\"True\" overrideNodeName=\"False\"
+      />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition 323 19 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[CheckStatusStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<usedObject
+      type=\"0\" aID=\"0\" wID=\"0\" pID=\"0\" pID2=\"-1\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<objectKey
+      type=\"0\" origin=\"1\" >\n\t\t\t\t\t\t<_bool useObject=\"True\" />\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t\t<selectedKey><![CDATA[]]></selectedKey>\n\t\t\t\t\t\t\t<objectID><![CDATA[]]></objectID>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</objectKey>\n\t\t\t\t</usedObject>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<req>\n\t\t\t\t\t\t<0
+      requirementType=\"0\" needed=\"0\" templateID=\"0\" >\n\t\t\t\t\t\t\t<status>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.Requirements.StatusEffectRequirementType]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings
+      statusEffectID=\"2\" >\n\t\t\t\t\t\t\t\t\t<_bool applied=\"True\" checkStacked=\"False\"
+      />\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[StatusEffectRequirementType]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t<check
+      type=\"0\" >\n\t\t\t\t\t\t\t\t\t\t<value type=\"0\" id=\"0\" rounding=\"0\"
+      >\n\t\t\t\t\t\t\t\t\t\t\t<_float initialValue=\"0\" offset=\"0\" value=\"0\"
+      value2=\"0\" />\n\t\t\t\t\t\t\t\t\t\t\t<_bool isInt=\"False\" isUTC=\"False\"
+      />\n\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t</value>\n\t\t\t\t\t\t\t\t\t</check>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</status>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</req>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t\t<1
+      id=\"12\" next=\"-1\" >\n\t\t\t\t<_bool shareVariables=\"False\" shareSelectedData=\"False\"
+      shareFoundObjects=\"False\" useStartingObject=\"True\" active=\"True\" overrideNodeName=\"False\"
+      />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition 551 19 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[CallGlobalEventStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<startingObject
+      type=\"0\" aID=\"0\" wID=\"0\" pID=\"0\" pID2=\"-1\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<objectKey
+      type=\"0\" origin=\"1\" >\n\t\t\t\t\t\t<_bool useObject=\"True\" />\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t\t<selectedKey><![CDATA[]]></selectedKey>\n\t\t\t\t\t\t\t<objectID><![CDATA[]]></objectID>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</objectKey>\n\t\t\t\t</startingObject>\n\t\t\t</1>\n\t\t\t<2
+      id=\"13\" next=\"-1\" >\n\t\t\t\t<_bool shareVariables=\"False\" shareSelectedData=\"False\"
+      shareFoundObjects=\"False\" useStartingObject=\"True\" active=\"True\" overrideNodeName=\"False\"
+      />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition 551 114 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[CallGlobalEventStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<startingObject
+      type=\"0\" aID=\"0\" wID=\"0\" pID=\"0\" pID2=\"-1\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<objectKey
+      type=\"0\" origin=\"1\" >\n\t\t\t\t\t\t<_bool useObject=\"True\" />\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t\t<selectedKey><![CDATA[]]></selectedKey>\n\t\t\t\t\t\t\t<objectID><![CDATA[]]></objectID>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</objectKey>\n\t\t\t\t</startingObject>\n\t\t\t</2>\n\t\t</step>\n\t</_subarrays>\n</gameEvent>\n"
+    lookUp:
+      textures: []
+      audioClips: []
+      gameObjects: []
+      guiSkins: []
+      materials: []
+      fonts: []
+      eventAssets: []
+      generalAssets: []
+    encrypted: 0

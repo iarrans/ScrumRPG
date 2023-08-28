@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -733530270, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
+  m_Name: EditorData
+  m_EditorClassIdentifier: 
+  lastProject: {fileID: 11400000, guid: cf702d22e0d67ca4b9767cd2743ae092, type: 2}
+  section: 4
+  subSection: 2
+  tabIndex: 0
+  scrollY: 480.99976
+  helpDrag: 220
+  subSectionDrag: 200
+  tabListDrag: 300
+  formulaDrag: 200
+  aiDrag: 400
+  eventDrag: 400
+  guiEditorDrag: 500
+  updateEvents: 1
+  eventUpdateFolder: 
+  updatePrefabs: 0
+  updateScenes: 0
+  sceneUpdate: 
+  eventAsset:
+  - {fileID: 11400000, guid: 32d053c51d548a54bb9fca14b8c72f59, type: 2}
+  - {fileID: 11400000, guid: 4b12048e705e64d4b8e2393913e6e4d0, type: 2}
+  - {fileID: 11400000, guid: 9b196cf5c5984b14f98813a14e99858c, type: 2}
+  - {fileID: 11400000, guid: 2dd33e403ba13d14d9b67210290d0ce1, type: 2}
+  - {fileID: 11400000, guid: 8947f219f440c0e4ca92c7e1b125dd84, type: 2}
+  - {fileID: 11400000, guid: 7185b918dca9c4e48a409d26aa21dc0d, type: 2}
+  - {fileID: 11400000, guid: ccddcb4c2244a0b488a5eb7ae74ce4a8, type: 2}
+  - {fileID: 11400000, guid: 747c16e298755a4439715ee6ffb64bba, type: 2}
+  - {fileID: 11400000, guid: 294470b0e9fde03418b1a5d72f4d824e, type: 2}
+  - {fileID: 11400000, guid: 43fc89942c48bc144ad4260989360550, type: 2}
+  - {fileID: 11400000, guid: f503a6bd1a9908b478d182b321ccbe61, type: 2}
+  - {fileID: 11400000, guid: f90c09e8f9c29224ca6bfdd3712eafff, type: 2}
+  - {fileID: 11400000, guid: bab03be27d4ac4c43afc0f9879b7e6d2, type: 2}
+  - {fileID: 11400000, guid: 5326423c3909c2a47b34efd6a1f19b8f, type: 2}
+  - {fileID: 11400000, guid: 65b219c873c74fe448d3162fde1a3660, type: 2}
+  - {fileID: 11400000, guid: e4ff7e5006c57664a9c8bcc4e0c9727a, type: 2}
+  - {fileID: 11400000, guid: 299b36fd0b37e1f489205e2dcfbf409c, type: 2}
+  - {fileID: 11400000, guid: 71578ea99891062468eef4925925d643, type: 2}
+  - {fileID: 11400000, guid: c76842971941c2148b0777a0a9c39445, type: 2}
+  - {fileID: 11400000, guid: 5e38bfc39fc84de4e970d2bba19175db, type: 2}
+  gameEventAsset:
+  - {fileID: 11400000, guid: 32d053c51d548a54bb9fca14b8c72f59, type: 2}
+  - {fileID: 11400000, guid: 4b12048e705e64d4b8e2393913e6e4d0, type: 2}
+  - {fileID: 11400000, guid: 9b196cf5c5984b14f98813a14e99858c, type: 2}
+  - {fileID: 11400000, guid: 2dd33e403ba13d14d9b67210290d0ce1, type: 2}
+  - {fileID: 11400000, guid: 8947f219f440c0e4ca92c7e1b125dd84, type: 2}
+  - {fileID: 11400000, guid: 747c16e298755a4439715ee6ffb64bba, type: 2}
+  - {fileID: 11400000, guid: 294470b0e9fde03418b1a5d72f4d824e, type: 2}
+  - {fileID: 11400000, guid: 43fc89942c48bc144ad4260989360550, type: 2}
+  - {fileID: 11400000, guid: f503a6bd1a9908b478d182b321ccbe61, type: 2}
+  - {fileID: 11400000, guid: f90c09e8f9c29224ca6bfdd3712eafff, type: 2}
+  - {fileID: 11400000, guid: bab03be27d4ac4c43afc0f9879b7e6d2, type: 2}
+  - {fileID: 11400000, guid: 5326423c3909c2a47b34efd6a1f19b8f, type: 2}
+  - {fileID: 11400000, guid: 65b219c873c74fe448d3162fde1a3660, type: 2}
+  - {fileID: 11400000, guid: e4ff7e5006c57664a9c8bcc4e0c9727a, type: 2}
+  - {fileID: 11400000, guid: 299b36fd0b37e1f489205e2dcfbf409c, type: 2}
+  - {fileID: 11400000, guid: 71578ea99891062468eef4925925d643, type: 2}
+  - {fileID: 11400000, guid: c76842971941c2148b0777a0a9c39445, type: 2}
+  - {fileID: 11400000, guid: 5e38bfc39fc84de4e970d2bba19175db, type: 2}
+  - {fileID: 11400000, guid: 8a492208cdd086441b85c7b40f78d3ef, type: 2}
+  - {fileID: 11400000, guid: f564db956905bda42b50e03b3a27014e, type: 2}
+  moveEventAsset:
+  - {fileID: 11400000, guid: 7185b918dca9c4e48a409d26aa21dc0d, type: 2}
+  battleEventAsset:
+  - {fileID: 11400000, guid: ccddcb4c2244a0b488a5eb7ae74ce4a8, type: 2}
+  - {fileID: 11400000, guid: a3421b76e2a1e474fa6a4e8f19b4749f, type: 2}
+  battleStartEventAsset:
+  - {fileID: 11400000, guid: a702bc3bfafbdae419f55b618022b04b, type: 2}
+  battleEndEventAsset:
+  - {fileID: 11400000, guid: 30dc50fcca34b754c89cebfb3e053ab7, type: 2}
+  - {fileID: 11400000, guid: 5b1e20e79bb71ba499d9246e8a918109, type: 2}
+  phaseChangeEventAsset: []
+  variablesDefined: []
+  variablesEditor:
+  - DailyPenalty
+  - damage
+  variablesEvent:
+  - Developer
+  - Quality Assurance
+  - Tester
+  - UI Designer
+  - Deployment
+  - CantidadEquipo
+  - a
+  - nombreactor
+  - scrumTeam
+  - combatant
+  - combatantSR
+  - actorName
+  - actors
+  - actors2
+  - actor
+  - ActorName
+  - actorClass
+  - atri
+  - tieneSuperrol
+  - misma
+  - position
+  - Hablado
+  - sip
+  - PruebaRepeticion
+  - ejecutado
+  - nombre
+  - counter
+  - battleGroup
+  - actorname
+  - group
+  - enemy
+  - enemyName
+  - idMiembro
+  - idActor
+  - Name
+  - MemberName
+  - Quote
+  - Introduction1
+  - yes
+  - initialSuperrol
+  - Conversation2
+  - Done
+  - Conversation2Feeling
+  - Sad
+  - Happy
+  - Conversation3
+  - Conversation3Feeling
+  - Conversation4
+  - Conversation4Feeling
+  - Conversation1
+  - Battle 0 (1)
+  - Party
+  - Combatant
+  - 1
+  - 9
+  - 1000
+  - 1500
+  - 2000
+  - Opening planning menu
+  - KilledBy
+  - hasUsedScrumMaster
+  - hasUsedScrumMasterAbility
+  - AbilityCost
+  - action
+  - Stage5
+  - Stage5Cooldown
+  - motivation
+  - Motivation
+  - change
+  - accomplishment
+  variablesScene: []

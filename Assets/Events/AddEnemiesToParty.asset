@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1501101930, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
+  m_Name: AddEnemiesToParty
+  m_EditorClassIdentifier: 
+  time: 20/09/2022 15:11:54
+  version: 2.34.0
+  data:
+    name: gameEvent
+    xmlData: "<gameEvent startIndex=\"0\" >\n\t<_bool blockingEvent=\"False\" blockMoveAI=\"False\"
+      blockActorMoveAI=\"False\" blockControlMaps=\"False\" clearFoundObjects=\"True\"
+      closeAllDialogues=\"False\" blockPlayer=\"False\" blockCamera=\"False\" clearBlocks=\"False\"
+      mainCamera=\"True\" cameraTag=\"False\" destroyPrefabs=\"False\" overrideNodeName=\"False\"
+      />\n\t<_floatarrays>\n\t\t<nodePosition 38 38 />\n\t</_floatarrays>\n\t<_string>\n\t\t<cameraName><![CDATA[]]></cameraName>\n\t\t<nodeName><![CDATA[]]></nodeName>\n\t</_string>\n\t<_subarrays>\n\t\t<actor>\n\t\t</actor>\n\t\t<waypoint>\n\t\t\t<0>\n\t\t\t\t<_bool
+      findObject=\"True\" />\n\t\t\t\t<findObjectSetting type=\"1\" >\n\t\t\t\t\t<_float
+      range=\"10\" />\n\t\t\t\t\t<_bool multiple=\"False\" useRange=\"False\" ignoreHeightDistance=\"False\"
+      useNearest=\"False\" />\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<name><![CDATA[SprintPlanningScripts]]></name>\n\t\t\t\t\t</_string>\n\t\t\t\t</findObjectSetting>\n\t\t\t</0>\n\t\t\t<1>\n\t\t\t\t<_bool
+      findObject=\"True\" />\n\t\t\t\t<findObjectSetting type=\"1\" >\n\t\t\t\t\t<_float
+      range=\"10\" />\n\t\t\t\t\t<_bool multiple=\"False\" useRange=\"False\" ignoreHeightDistance=\"False\"
+      useNearest=\"False\" />\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<name><![CDATA[BattleMain]]></name>\n\t\t\t\t\t</_string>\n\t\t\t\t</findObjectSetting>\n\t\t\t</1>\n\t\t</waypoint>\n\t\t<prefab>\n\t\t</prefab>\n\t\t<audioClip>\n\t\t</audioClip>\n\t\t<step>\n\t\t\t<0
+      classOrigin=\"0\" next=\"1\" >\n\t\t\t\t<_float timeBetween=\"0\" />\n\t\t\t\t<_bool
+      waitBetween=\"True\" active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
+      266 38 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[TaskListLists]]></name>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[CallFunctionStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<onObject
+      type=\"1\" aID=\"0\" wID=\"0\" pID=\"0\" pID2=\"-1\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<objectKey
+      type=\"0\" origin=\"1\" >\n\t\t\t\t\t\t<_bool useObject=\"True\" />\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t\t<selectedKey><![CDATA[]]></selectedKey>\n\t\t\t\t\t\t\t<objectID><![CDATA[]]></objectID>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</objectKey>\n\t\t\t\t</onObject>\n\t\t\t\t<method>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<functionName><![CDATA[AddParty]]></functionName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<parameter>\n\t\t\t\t\t\t</parameter>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</method>\n\t\t\t</0>\n\t\t\t<1
+      classOrigin=\"0\" next=\"-1\" >\n\t\t\t\t<_float timeBetween=\"0\" />\n\t\t\t\t<_bool
+      waitBetween=\"True\" active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
+      494 38 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Sprint]]></name>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[CallFunctionStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<onObject
+      type=\"1\" aID=\"0\" wID=\"1\" pID=\"0\" pID2=\"-1\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<objectKey
+      type=\"0\" origin=\"1\" >\n\t\t\t\t\t\t<_bool useObject=\"True\" />\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t\t<selectedKey><![CDATA[]]></selectedKey>\n\t\t\t\t\t\t\t<objectID><![CDATA[]]></objectID>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</objectKey>\n\t\t\t\t</onObject>\n\t\t\t\t<method>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<functionName><![CDATA[GrantExp]]></functionName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<parameter>\n\t\t\t\t\t\t</parameter>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</method>\n\t\t\t</1>\n\t\t</step>\n\t</_subarrays>\n</gameEvent>\n"
+    lookUp:
+      textures: []
+      audioClips: []
+      gameObjects: []
+      guiSkins: []
+      materials: []
+      fonts: []
+      eventAssets: []
+      generalAssets: []
+    encrypted: 0

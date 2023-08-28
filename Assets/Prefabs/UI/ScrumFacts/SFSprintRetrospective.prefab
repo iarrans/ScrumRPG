@@ -1,0 +1,259 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &195658429185445606
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 300064537370540503, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 300064537370540503, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1920600888216310817, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1920600888216310817, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.000034720804
+      objectReference: {fileID: 0}
+    - target: {fileID: 2263707421611992585, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2263707421611992585, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3105982872845041339, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3105982872845041339, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3105982872845041339, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3105982872845041339, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3105982872845041339, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3105982872845041339, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3105982872845041339, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3105982872845041339, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3105982872845041339, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3105982872845041339, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3105982872845041339, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3105982872845041339, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3105982872845041339, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3105982872845041339, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3105982872845041339, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3105982872845041339, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3105982872845041339, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3105982872845041339, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3105982872845041339, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3105982872845041339, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3105982872845041339, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3148005615704960965, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_Text
+      value: 'The Sprint Retrospective is the last of the 4 essential Scrum meetings.
+        In this meeting the team analyzes in retrospective how the sprint went. It''s
+        split into 3 phases:
+
+
+        1.- Each team member writes secretely what
+        went well, what could''ve been improved, and what went wrong.
+
+
+        2.-
+        One at a time, each member shows what they wrote and explain why they think
+        what they wrote.
+
+
+        3.- Based on the team''s thoughts, the team as
+        a whole writes down what should be done in the next sprint to improve on
+        the previous one.
+
+
+        To showcase this in the game was a real challenge
+        for us. We chose to let the player do the two first phases by themselves
+        and just showcase the third one, and that is reflected as missions that can
+        be chosen. The mission variety is very small as of now, and we do intend
+        to increase it in the future. We would like to implement the first two phases.
+        An idea is to do it in the shape of advice that the game gives the player
+        based on their performance.
+
+
+        We are well aware that the Sprint Retrospective
+        is still an unfinished area in our project, but we are happy to showcase
+        the concept of what we thought.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4314694275105604392, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4314694275105604392, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5263561662400843510, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ae7bb2240d7e69d44ae5fd82d290e277,
+        type: 3}
+    - target: {fileID: 6004697570699117956, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_Name
+      value: SFSprintRetrospective
+      objectReference: {fileID: 0}
+    - target: {fileID: 7294814752894967418, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_Text
+      value: Sprint Retrospective
+      objectReference: {fileID: 0}
+    - target: {fileID: 8008146617494083473, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8008146617494083473, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8008146617494083473, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8008146617494083473, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 410
+      objectReference: {fileID: 0}
+    - target: {fileID: 8506560877706703627, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8506560877706703627, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8506560877706703627, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8506560877706703627, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9010978696696496914, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9010978696696496914, guid: 196ad2d6d6e7cd14581cba586e596098,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 196ad2d6d6e7cd14581cba586e596098, type: 3}
